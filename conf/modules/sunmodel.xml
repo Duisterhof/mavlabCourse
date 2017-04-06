@@ -1,0 +1,17 @@
+<!DOCTYPE module SYSTEM "module.dtd">
+
+<module name="sunmodel">
+  <doc>
+    <description>Find optimum charging spot for solar array powered UAV&apos;s</description>
+  </doc>
+
+  <header>
+    <file name="sunmodel.h"/>
+  </header>
+  <init fun="sunmodel_init()"/>
+  <event fun="sunmodel_event"/>
+  <makefile>
+    <file name="sunmodel.c"/>
+  </makefile>
+</module>
+
